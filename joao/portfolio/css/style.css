@@ -1,0 +1,220 @@
+:root{
+    --bg: white;
+    --primaria: rgb(55, 172, 240)
+}
+
+
+body{
+    background-color: var(--bg);
+    font-family: "Poppins", sans-serif;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    
+}
+header{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+header a:hover{
+    color: rgb(55, 172, 240);
+}
+
+
+header .left{
+    margin-left: 5vw;
+}
+
+header .left a{
+    margin-right: 25px;
+}
+
+header .center{
+    color: rgb(55, 172, 240);
+}
+
+header .right{
+    display: flex;
+    margin-right: 5vw;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(55, 172, 240);
+    color: white;
+    width: 130px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.contato a:hover{
+    color: white;
+}
+
+.home .wrap{
+    font-family: "Shippori Antique", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.home .content{
+    color: rgb(255, 255, 255);
+    background: url('../src/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 8vh;
+    width: 95vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 25px;
+}
+.home .content .texto{
+    margin-top: 10vh;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home .content .texto h1{
+    color: var(--bg);
+    font-size: 40px;
+    text-align: center;
+}
+
+.home .content .texto button{
+    height: 50px;
+    width: 170px;
+    background-color: var(--primaria);
+    border: none;
+    border-radius: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.home .content .imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.home .content .imagens .foto-1{
+    height: 280px;
+    width: 400px;
+    /* background-color: rgb(94, 29, 29); */
+    background-image: url('../src/bg-image1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+.elemento{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+}
+
+.elemento:hover{
+    transform: translateY(-5px);
+}
+
+.home .content .imagens .foto-2{
+    height: 280px;
+    width: 400px;
+    /* background-color: blueviolet; */
+    background-image: url('../src/bg-image2-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.wrap_port{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    gap: 50px;
+}
+.title_port{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.portfolio{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.portfolio .card1{
+    background-color: aquamarine;
+    border-radius: 25px;
+    width: 30vw;
+    height: 80vh;
+    /* height: 40vh;
+    width: 30vw; */
+}
+
+.portfolio .card2{
+    background-color: aquamarine;
+    border-radius: 25px;
+    width: 30vw;
+    height: 80vh;
+    /* height: 40vh;
+    width: 30vw; */
+}
+
+.portfolio .card3{
+    background-color: aquamarine;
+    border-radius: 25px;
+    width: 30vw;
+    height: 80vh;
+    /* height: 40vh;
+    width: 30vw; */
+}
